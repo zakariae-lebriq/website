@@ -127,7 +127,7 @@ When you create the manifest for a Pod object, make sure the name specified is a
 ### Pods and controllers
 
 You can use workload resources to create and manage multiple Pods for you. A controller
-for the resource handles replication and rollout and automatic healing in case of
+for the resource handles replication and rolls out an automatic healing in case of
 Pod failure. For example, if a Node fails, a controller notices that Pods on that
 Node have stopped working and creates a replacement Pod. The scheduler places the
 replacement Pod onto a healthy Node.
